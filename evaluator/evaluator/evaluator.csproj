@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{976A8EB5-3A9B-495A-B617-9BF71D6973A9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>evaluator</RootNamespace>
+    <AssemblyName>evaluator</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Vse.Web.Serialization, Version=1.0.4.0, Culture=neutral, PublicKeyToken=fb838febb49f46b2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Vse.Web.Serialization.ControlledSerializationJsonConverter.1.0.4\lib\net45\Vse.Web.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="JobObjects\BasicLimitInformation.cs" />
+    <Compile Include="JobObjects\BasicUiRestrictions.cs" />
+    <Compile Include="JobObjects\ExtendedLimitInformation.cs" />
+    <Compile Include="JobObjects\InfoClass.cs" />
+    <Compile Include="JobObjects\IoCounters.cs" />
+    <Compile Include="JobObjects\JobObject.cs" />
+    <Compile Include="JobObjects\LimitFlags.cs" />
+    <Compile Include="JobObjects\NativeMethods.cs" />
+    <Compile Include="JobObjects\PrepareJobObject.cs" />
+    <Compile Include="JobObjects\SecurityAttributes.cs" />
+    <Compile Include="JobObjects\SecurityLimitFlags.cs" />
+    <Compile Include="JobObjects\SecurityLimitInformation.cs" />
+    <Compile Include="JobObjects\UiRestrictionFlags.cs" />
+    <Compile Include="Process\CreateProcessFlags.cs" />
+    <Compile Include="Process\CreateRestrictedTokenFlags.cs" />
+    <Compile Include="Process\DuplicateOptions.cs" />
+    <Compile Include="Process\LogonProvider.cs" />
+    <Compile Include="Process\LogonType.cs" />
+    <Compile Include="Process\Luid.cs" />
+    <Compile Include="Process\LuidAndAttributes.cs" />
+    <Compile Include="Process\NativeMethods.cs" />
+    <Compile Include="Process\PriorityClass.cs" />
+    <Compile Include="Process\ProcessInformation.cs" />
+    <Compile Include="Process\ProcessMemoryCounters.cs" />
+    <Compile Include="Process\ProcessThreadTimes.cs" />
+    <Compile Include="Process\ProcessWaitHandle.cs" />
+    <Compile Include="Process\RestrictedProcess.cs" />
+    <Compile Include="Process\SafeLocalMemHandle.cs" />
+    <Compile Include="Process\SafeProcessHandle.cs" />
+    <Compile Include="Process\SecurityAttributes.cs" />
+    <Compile Include="Process\SecurityMandatoryLabel.cs" />
+    <Compile Include="Process\SidAndAttributes.cs" />
+    <Compile Include="Process\SidIdentifierAuthority.cs" />
+    <Compile Include="Process\StartupInfo.cs" />
+    <Compile Include="Process\StartupInfoFlags.cs" />
+    <Compile Include="Process\TokenInformationClass.cs" />
+    <Compile Include="Process\TokenMandatoryLabel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
