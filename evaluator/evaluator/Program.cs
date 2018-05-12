@@ -50,7 +50,7 @@ namespace evaluator
         private static List<Test> tests;
         private static List<TestInfo> tests_info;
 
-        private const string AUTH_USER = "admin", AUTH_PASS = "dm6123456";
+        private const string AUTH_USER = "USER", AUTH_PASS = "PASS";
 
         private static string CWD, update_url, ce_message;
 
