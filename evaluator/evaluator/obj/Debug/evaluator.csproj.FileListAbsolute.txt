@@ -1,0 +1,14 @@
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\obj\Debug\evaluator.csproj.CoreCompileInputs.cache
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\evaluator.exe.config
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\evaluator.exe
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\evaluator.pdb
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\obj\Debug\evaluator.exe
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\obj\Debug\evaluator.pdb
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\Vse.Web.Serialization.dll
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\Vse.Web.Serialization.pdb
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\obj\Debug\evaluator.csprojResolveAssemblyReference.cache
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\obj\Debug\evaluator.csproj.CopyComplete
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\System.Web.Http.dll
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\System.Web.Http.xml
+C:\Users\ceco5_000\source\repos\evaluator\evaluator\bin\Debug\System.Net.Http.Formatting.xml
